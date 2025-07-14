@@ -1,6 +1,6 @@
 # 📰 News Insight Analyzer with AI Assistant
 
-**Detect fake news, understand sentiment & categories, and chat with your articles — powered by advanced AI models.**
+**Detect fake news, understand sentiment & categories, and chat with your articles powered by advanced AI models.**
 
 ---
 
@@ -43,7 +43,7 @@ Users can leave feedback on predictions. The app analyzes feedback sentiment (Po
 Automatically saves all analyzed articles and results for later review.
 
 ✅ **AI Assistant Chat**  
-Interact with your article — ask questions, get clarifications, and explore insights through an integrated AI-powered chat assistant.
+Interact with your article ask questions, get clarifications, and explore insights through an integrated AI-powered chat assistant.
 
 ---
 
