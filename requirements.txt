@@ -5,6 +5,4 @@ transformers
 openai
 langchain
 beautifulsoup4
-newspaper3k
-gensim
-nltk
+tensorflow

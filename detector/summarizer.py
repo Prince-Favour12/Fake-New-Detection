@@ -17,3 +17,8 @@ def summarize_text(text, max_length=130):
         return summary[0]['summary_text']
     except:
         return None
+    
+
+if __name__ == '__main__':
+    text = "The local government announced the completion of a major bridge project connecting two key districts, improving traffic flow and boosting commerce."
+    print(summarize_text(text, 50))

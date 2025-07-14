@@ -10,7 +10,7 @@ def analyze_content(text):
         return {}
     
     # Genre detection
-    genre_labels = ["technology", "politics", "entertainment", "sports", "business"]
+    genre_labels = ['Politics','Business','Science','Technology','Health','Sports','Entertainment']
     genre = genre_classifier(text, genre_labels)['labels'][0]
     
     # Emotion detection
@@ -20,3 +20,7 @@ def analyze_content(text):
         "genre": genre,
         "emotion": emotion
     }
+
+if __name__ == '__main__':
+    text = "Trump Is dead, oh my god what happend to him"
+    print(analyze_content(text))
